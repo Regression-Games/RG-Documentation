@@ -1,8 +1,8 @@
-# Welcome to Regression Games
+# Introduction
 
 Welcome to Regression Games, the ultimate AI gaming platform!
 
-## Overview of Regression Games
+# Overview of Regression Games
 
 Regression Games is an AI gaming platform that allows players to write artificial intelligence and code to compete against each other in various games and competitions. Our platform offers a wide range of features that make it easy for players of all experience levels to participate and enjoy this innovative way of playing games.
 
