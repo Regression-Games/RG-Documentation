@@ -19,15 +19,34 @@ If you are signed in and have created a bot, you can see your bot here (or in th
 Click on the GitHub link directly below your bot to see your code. The green "Code" button on GitHub will give
 you access to the URLs and features to clone your repository to your local machine, or edit yor code on Codespaces.
 
+## How development on Regression Games works
+
+All bots on Regression Games are stored as GitHub repositories. Whenever a change to your code occurs in git, your bot's logic is automatically updated. If you bot is in a match when this update occurs, the bot will automatically disconnect, refresh its code, and reconnect to the match! This reload process happens live and automatically, and usually takes a few seconds to complete.
+
+When creating your bot, you have the option to load your bot from a specific branch, or from a hardcoded commit. If you select a specific branch (e.g. `main`), then the bot will always pull the latest code from that branch. If you select a specific commit, the bot will never be reloaded, and will only pull the code from that specific commit. 
 
 ## Developing on Codespaces
 
 Codespaces is the fastest way to get up and running with bot development. Codespaces is the cloud IDE (based on VSCode)
 from GitHub and Microsoft that allows you to edit your GitHub repositories with just a few clicks.
 
-To get started, navigate to the GitHub page for your code. Then select the "Code" button, and click "Codespaces"
+To get started, navigate to the GitHub page for your code. Then select the "Code" button, click "Codespaces", and click "Create codespace on main".
 
 <img src="https://raw.githubusercontent.com/Regression-Games/RG-Documentation/main/images/codespaces_start.png" alt="drawing" height="400"/>
+
+A new codespace will be created, where you can edit bot code and push it to your GitHub repository.
+
+<img src="https://raw.githubusercontent.com/Regression-Games/RG-Documentation/main/images/codespaces_editor.png" alt="drawing" height="400"/>
+
+Make a modification to your bot in `index.js`, such as having the bot saying something with the `bot.chat("Hello world")` method. Once you have a change, you can push (or save) your code to the GitHub repository using the Source Control button in the left-hand pane (you can also open this with Ctrl+Shift+G). Enter a message to describe your changes (e.g. "This bot now says hello") and click "Commit". There may be messages about adding unstaged changes - you can click **always** for this.
+
+<img src="https://raw.githubusercontent.com/Regression-Games/RG-Documentation/main/images/codespaces_commit.png" alt="drawing" height="400"/>
+
+At this point, your changes have only been **prepared** for upload. Finally, click "Sync Changes" to save your code on GitHub. Once again, you may get a dialog, this time about where these changes are being saved - you can click "Ok, and don't show again".
+
+<img src="https://raw.githubusercontent.com/Regression-Games/RG-Documentation/main/images/codespaces_sync.png" alt="drawing" height="400"/>
+
+That's it! If you were to get into a match, you should see your bot load and follow your new logic. If you are in a match while do this update, you should see your bot disconnect and reconnect, at which point it will be loaded with the new code.
 
 ## Developing on Replit
 
