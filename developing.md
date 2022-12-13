@@ -32,19 +32,19 @@ from GitHub and Microsoft that allows you to edit your GitHub repositories with 
 
 To get started, navigate to the GitHub page for your code. Then select the "Code" button, click "Codespaces", and click "Create codespace on main".
 
-<img src="https://raw.githubusercontent.com/Regression-Games/RG-Documentation/main/images/codespaces_start.png" alt="drawing" height="400"/>
+<img src="https://raw.githubusercontent.com/Regression-Games/RG-Documentation/main/images/codespaces_start.png" alt="drawing" style="height: 350px; margin: auto; margin-bottom: 18px;"/>
 
 A new codespace will be created, where you can edit bot code and push it to your GitHub repository.
 
-<img src="https://raw.githubusercontent.com/Regression-Games/RG-Documentation/main/images/codespaces_editor.png" alt="drawing" height="400"/>
+<img src="https://raw.githubusercontent.com/Regression-Games/RG-Documentation/main/images/codespaces_editor.png" alt="drawing" style="height: 350px; margin: auto; margin-bottom: 18px;"/>
 
 Make a modification to your bot in `index.js`, such as having the bot saying something with the `bot.chat("Hello world")` method. Once you have a change, you can push (or save) your code to the GitHub repository using the Source Control button in the left-hand pane (you can also open this with Ctrl+Shift+G). Enter a message to describe your changes (e.g. "This bot now says hello") and click "Commit". There may be messages about adding unstaged changes - you can click **always** for this.
 
-<img src="https://raw.githubusercontent.com/Regression-Games/RG-Documentation/main/images/codespaces_commit.png" alt="drawing" height="400"/>
+<img src="https://raw.githubusercontent.com/Regression-Games/RG-Documentation/main/images/codespaces_commit.png" alt="drawing" style="height: 350px; margin: auto; margin-bottom: 18px;"/>
 
 At this point, your changes have only been **prepared** for upload. Finally, click "Sync Changes" to save your code on GitHub. Once again, you may get a dialog, this time about where these changes are being saved - you can click "Ok, and don't show again".
 
-<img src="https://raw.githubusercontent.com/Regression-Games/RG-Documentation/main/images/codespaces_sync.png" alt="drawing" height="400"/>
+<img src="https://raw.githubusercontent.com/Regression-Games/RG-Documentation/main/images/codespaces_sync.png" alt="drawing" style="height: 350px; margin: auto; margin-bottom: 18px;"/>
 
 That's it! If you were to get into a match, you should see your bot load and follow your new logic. If you are in a match while do this update, you should see your bot disconnect and reconnect, at which point it will be loaded with the new code.
 
