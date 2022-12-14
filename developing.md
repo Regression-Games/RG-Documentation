@@ -90,7 +90,7 @@ Make a change to your code, and then click "Run" to push your changes! The first
 
 # Developing locally
 
-To develop bots for Regression Games locally, you will need an IDE or text editor (such as [VSCode](https://code.visualstudio.com/), [IntelliJ] (https://www.jetbrains.com/idea/), etc...), as well as [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Follow the links for each of those items if you need to install those tools.
+To develop bots for Regression Games locally, you will need an IDE or text editor (such as [VSCode](https://code.visualstudio.com/), [IntelliJ](https://www.jetbrains.com/idea/), etc...), as well as [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Follow the links for each of those items if you need to install those tools.
 
 Once you have an editor of choice and git installed, you can simply clone your repository and start editing your code. If you are logged in to Regression Games, you can see the GitHub link below your bot's title within the Bot Manager. Click this link to view the GitHub repository, which has a green "Code" button that provides links for cloning.
 
